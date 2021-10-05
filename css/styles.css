@@ -1,7 +1,40 @@
 h1 {
-    color:#002642;
+    color: #e5dada;
 }
 
 body {
-    background: color #e5dada;;
+    background-color:#002342 ;
+    color: #e5dada;
+}
+a {
+    color: #e59500;
+}
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width: 250px;
+
+    border: 1px solid #e59500;
+    background-color: #02040f;
+}
+
+li {
+    text-align:center;
+    border-bottom: 1px solid #e59500;
+}
+
+li:last-child {
+    border-bottom: none; 
+}
+
+li a {
+    display: block;
+    color:#e5dada;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:#e59500;
+    color: #02040f
 }
