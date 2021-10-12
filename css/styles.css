@@ -3,12 +3,14 @@ h1 {
 }
 
 body {
-    background-color:#002342 ;
+    background-color:#002342;
     color: #e5dada;
 }
+
 a {
     color: #e59500;
 }
+
 ul {
     list-style-type: none;
     margin:0;
@@ -37,4 +39,17 @@ li a {
 li a:hover {
     background-color:#e59500;
     color: #02040f
+}
+
+/* Relevant to Week 6 starting her */
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+img {
+    float: left;
+    margin: 32px;
+    width:50%;
 }
